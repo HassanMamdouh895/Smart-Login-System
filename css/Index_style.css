@@ -1,0 +1,127 @@
+
+
+/* style background  */
+body
+{
+    background-image: url(../images/lg-2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* style background  */
+
+/* style box && Header title  */
+
+.login-box h1 {
+    font-family: fantasy;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.login-box
+{
+    min-width: 40%;
+    background: #1f29707d;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+/* style box && Header title End  */
+
+/* inputs && label Style */
+label
+{
+    color: #ffffffd9;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-bottom: 7px;
+
+}
+.login-box input
+{
+    background: transparent;
+
+    width: 100% ;
+    border: none ;
+    font-size: 17px ;
+    outline: none ;
+    border-bottom: 1px solid ;
+    color: #ffffff96 ;
+    transition: padding 0.3s ;
+    font-family: cursive ;
+    padding: 11px 10px 15px ;
+}
+.login-box input:focus
+{
+    background: transparent !important;
+   padding:  25px 10px 24px;
+   transition: padding 0.3s;
+}
+
+.form-control:focus
+{
+    color: #ffffff96!important;
+    border: none !important;
+}
+
+/* inputs Style End */
+
+
+/* btn box Style */
+
+.login-box .style-btn
+{
+    font-family: fantasy;
+    transition: all 0.5s;
+}
+
+
+
+
+/* Visibale && Hidden Div Box Sign-in && sign-up */
+.sign{
+    display: none;
+    translate: 115px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.sign-in-up
+{
+    display: block;
+    translate: 0;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.success{
+    background-color: green!important;
+}
+.wrong{
+    background-color: red !important;
+}
+/* Visibale && Hidden Div Box Sign-in && sign-up  End*/
+
+
+
+/* Home-page-end */
+
+.welcome {
+    min-width: 50%;
+    height: 50%;
+    background: #3140b0b0;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-bg {
+    --bs-bg-opacity: 1;
+    background-color: rgb(12 49 103) !important;
+}
+
+.btn-Home
+{font-family: fantasy;}
+/*Home page -End */

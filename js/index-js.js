@@ -174,7 +174,7 @@ btnSignIn.addEventListener("click",function(){
             document.querySelector(".messege-signIn").innerHTML="success";
             document.querySelector(".messege-signIn").classList.add("success")
             document.querySelector(".messege-signIn").classList.remove("wrong")
-            // window.open("home.html","_self")
+            window.open("home.html","_self")
             clear()
     
         

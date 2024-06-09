@@ -100,8 +100,13 @@ else{
             document.getElementById("emailId").classList.remove("is-valid")
             document.getElementById("passwordId").classList.add("is-invalid")
             document.getElementById("passwordId").classList.remove("is-valid")
+            document.getElementById("loginUp").classList.add("sign-in-up")
+            document.getElementById("loginUp").classList.remove("sign")
+
+        document.getElementById("loginIn").classList.remove("sign-in-up")
+        document.getElementById("loginIn").classList.add("sign")
             
-            return;
+            
         
         }
 
@@ -137,11 +142,11 @@ btnSignIn.addEventListener("click",function(){
         passwordUser: document.getElementById("passwordIdd").value,
     }
 
-    // if(signIn.emailUser==""|signIn.passwordUser=="")
-    //     {
-    //         document.querySelector(".messege-signIn").innerHTML="Please fill all inputs"
-    //         console.log("hello")
-    //     }
+    if(signIn.emailUser==""|signIn.passwordUser=="")
+        {
+            document.querySelector(".messege-signIn").innerHTML="Please fill all inputs"
+            console.log("hello")
+        }
 
      if(signIn.emailUser==""|signIn.passwordUser==""){
         document.querySelector(".messege-signIn").innerHTML="Please Fill All Inputs";
